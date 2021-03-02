@@ -10,7 +10,7 @@ from ..models import Question
 def index(request):
     """
     pybo 목록 출력
-    :param request:
+    :param request:request
     :return:
     """
     # 입력 파라미터
