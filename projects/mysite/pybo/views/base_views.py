@@ -46,7 +46,7 @@ def detail(request, question_id):
     """
     pybo 내용 출력
     :param request:
-    :param question_id:
+    :param question_id: question_id
     :return:
     """
     question = get_object_or_404(Question, pk=question_id)
