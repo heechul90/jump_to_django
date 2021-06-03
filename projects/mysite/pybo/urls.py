@@ -20,6 +20,7 @@ urlpatterns = [
     path('answer/modify/<int:answer_id>/', answer_views.answer_modify, name='answer_modify'),
     path('answer/delete/<int:answer_id>/', answer_views.answer_delete, name='answer_delete'),
 
+
     # comment_views.py
     path('comment/create/question/<int:question_id>/', comment_views.comment_create_question, name='comment_create_question'),
     path('comment/modify/question/<int:comment_id>/', comment_views.comment_modify_question, name='comment_modify_question'),
